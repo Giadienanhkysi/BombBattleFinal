@@ -54,9 +54,7 @@ class Settings:
 
 class Calculate:
     @staticmethod
-    def list_colliding_coordinates(x, y):
-        print(x, y)
-        print(math.floor(x), math.ceil(x), math.floor(y), math.ceil(y))
+    def list_colliding_coordinates(x, y):        
         return math.floor(x), math.ceil(x), math.floor(y), math.ceil(y)
         
     @staticmethod
